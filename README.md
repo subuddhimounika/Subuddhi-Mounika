@@ -19,9 +19,11 @@ It can perform **Addition, Subtraction, Multiplication, and Division** based on 
 
 Example Usage:
 const calc1 = new Calculator(12.5, 3.5, "add");
+
 console.log("Addition:", calc1.calculate()); // Output: 16
 
 const calc2 = new Calculator(10, 5, "sub");
+
 console.log("Subtraction:", calc2.calculate()); // Output: 5
 
 const calc3 = new Calculator(6, 7, "mul");
