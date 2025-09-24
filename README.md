@@ -27,9 +27,11 @@ const calc2 = new Calculator(10, 5, "sub");
 console.log("Subtraction:", calc2.calculate()); // Output: 5
 
 const calc3 = new Calculator(6, 7, "mul");
+
 console.log("Multiplication:", calc3.calculate()); // Output: 42
 
 const calc4 = new Calculator(20, 4, "div");
+
 console.log("Division:", calc4.calculate()); // Output: 5
 
 # Problem-2.js – Odd Series up to a
@@ -37,9 +39,13 @@ console.log("Division:", calc4.calculate()); // Output: 5
 Generates a series of odd numbers from 1 up to a terms.
 Example usage:
 console.log(Series(1)) // 1
+
 console.log(Series(2)) // 1,3
+
 console.log(Series(3)) // 1,3,5
+
 console.log(Series(4)) // 1,3,5,7
+
 console.log(Series(5)) // 1,3,5,7,9
 
 # Problem-3.js – Odd Series with Pattern
@@ -49,11 +55,17 @@ If a is odd → series length = a
 If a is even → series length = a-1
 Example usage:
 console.log(Series2(1)) // 1
+
 console.log(Series2(2)) // 1
+
 console.log(Series2(3)) // 1,3,5
+
 console.log(Series2(4)) // 1,3,5
+
 console.log(Series2(5)) // 1,3,5,7,9
+
 console.log(Series2(6)) // 1,3,5,7,9
+
 console.log(Series2(7)) // 1,3,5,7,9,11,13
 
 # Problem-4.js – Count Multiples
